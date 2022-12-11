@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.menu{
+    background-color: blue;
+    padding: 15px;
+    text-align: right;
+    margin: 0;
+}
+
+.menu li{
+    display: inline;
+    margin: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.courses{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 20px 80px;
+}
+
+.flex-div{
+    display: flex;
+}
+
+.flex-div div{
+    background-color: rgb(189, 167, 167);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.product-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px 150px;
+}
+
+.product-div img{
+    width: 100%;
+}
+
+.student-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 50px 100px;
+}
+
+.student-div{
+    background-color: rgb(80, 116, 148);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.addbtn{
+    text-align: right;
+    padding: 50px;
+}
+
+.addbtn a{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
